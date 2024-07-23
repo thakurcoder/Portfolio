@@ -10,12 +10,7 @@ function Navbar() {
         <div className='text-3xl m-5  '>
             <h1>AKS</h1>
         </div>
-        <div className='text-xl '>
-          <a href='#resume' className='mx-2'>Resume</a>
-          <a href='#about' className='mx-2'>About</a>
-          <a href='#project' className='mx-2'>Projects</a>
-          <a href='#contact' className='mx-2'>Contact</a>
-        </div>
+      
 
         {/* socal media icon */}
         <div className='flex text-4xl'>
