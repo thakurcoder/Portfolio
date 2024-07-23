@@ -13,7 +13,7 @@ function About() {
   return (
     <div className='m-4' id='about'>
         <div className='text-5xl text-center mb-8'>
-            <h1 className='text-slate-400'>
+            <h1 className='text-slate-200'>
                 About <span className='text-lime-900'>ME</span>
             </h1>  
         </div>
@@ -48,7 +48,7 @@ function About() {
                         <h1 className='text-indigo-500'>{HigherSecondary.class}</h1>
                         <h1>{HigherSecondary.year}</h1>
                     </div>
-                    <h1>Complete my 12 from <span className='font-bold'>{HigherSecondary.name}</span></h1>
+                    <h1 className='font-bold'>{HigherSecondary.name}</h1>
                     <h1>{HigherSecondary.mark}</h1>
                 </div>
                 <div className='shadow-3xl lg:text-xl  outline outline-slate-300 p-3 m-2 w-full'>
@@ -56,7 +56,7 @@ function About() {
                         <h1 className='text-indigo-500'>{SecondarySchool.class}</h1>
                         <h1>{SecondarySchool.year}</h1>
                     </div>
-                    <h1>Complete my 10 from <span className='font-bold'>{SecondarySchool.name}</span></h1>
+                    <h1 className='font-bold'>{SecondarySchool.name}</h1>
                     <h1>{SecondarySchool.mark}</h1>
                 </div>
             </motion.div>

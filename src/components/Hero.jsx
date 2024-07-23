@@ -30,7 +30,8 @@ function Hero() {
           className=" md:text-lg lg:text-xl pt-5 my-2 font-serif">
             {HERO_CONTENT}
           </motion.p>
-          <a href={resume}  target="_blank"><button className="bg-cyan-500 rounded-xl text-clip  w-32 text-3xl hover:bg-teal-700">Resume</button></a>
+          <a href={resume}  target="_blank"><button className="bg-cyan-500 rounded-xl text-clip  w-32 text-3xl hover:bg-teal-700 m-2">Resume</button></a>
+          <a href="#contact" ><button className="bg-red-600 rounded-xl text-clip  w-32 text-3xl hover:bg-blue-700 m-2">Hire Me</button></a>
         </div>
         <motion.div
         initial={{x:400,opacity:0}}

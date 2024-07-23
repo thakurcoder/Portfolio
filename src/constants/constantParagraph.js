@@ -60,6 +60,6 @@ export const college = {
     class:"BCA",
     name:"LNCT University",
     year:"2024",
-    mark:"SGPA : 8.18"
+    mark:"CGPA : 7.89"
 
 }
