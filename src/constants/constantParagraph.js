@@ -27,7 +27,7 @@ export const PROJECT = [
     {
         title:"Video streaming",
         image:project3,
-        description:"Food Heart is a comprehensive and responsive web application designed to provide users with an efficient and enjoyable experience when browsing and selecting food options from various restaurants. The application focuses on performance, real-time data integration, and a user-friendly interface.",
+        description:"Developed a highly optimized video streaming app using YouTube Live API, integrating React.js, Redux, and Tailwind CSS. Features include debounced search, dynamic video cards, nested comments, and real-time search, boosting user engagement by 40% and enhancing user satisfaction through advanced, responsive functionalities.",
         live_link:"https://video-streaming-online.netlify.app/",
         github_link:"https://github.com/thakurcoder/video-streaming",
         technologie:[" React , ", " Redux Toolkit , ", " Swiggy Live Public API , ", " Javascript , " , " Tailwind CSS "]

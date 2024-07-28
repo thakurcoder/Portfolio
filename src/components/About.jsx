@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { HERO_CONTENT, ABOUT , SecondarySchool,HigherSecondary,college } from '../constants/constantParagraph';
 import aboutpic from "../assets/about.png.webp";
 import { motion, useInView } from 'framer-motion';
@@ -9,6 +9,10 @@ function About() {
 
     const isImageInView = useInView(refImage, { triggerOnce: true });
     const isTextInView = useInView(refText, { triggerOnce: true });
+
+
+ 
+
 
   return (
     <div className='m-4' id='about'>
