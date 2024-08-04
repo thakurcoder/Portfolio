@@ -2,6 +2,7 @@ import project1 from "../assets/project1.png"
 import project2 from "../assets/project2.png"
 import project3 from "../assets/project3.png"
 import project4 from "../assets/project4.png"
+import project5 from "../assets/project5.png"
 
 export const HERO_CONTENT = "Hi, I'm Aman Kumar Singh, a passionate and skilled software developer with a strong foundation in Python, C++, JavaScript, HTML, and CSS. I specialize in creating dynamic and user-centric applications using modern technologies like React.js, Redux Toolkit, Tailwind CSS, Node.js, and Express.js."
 
@@ -15,6 +16,14 @@ export const PROJECT = [
         live_link:"https://m-movie-place.netlify.app/browse",
         github_link:"https://github.com/thakurcoder/Movie-Place",
         technologie:[" React, ", " Firebase , ", " TMDB API , ", " OpenAI API ,", " Context Api , " , " Tailwind CSS "]
+    },
+    {
+        title:"Dream Home",
+        image:project5,
+        description:"Dream Home is a dynamic real estate application developed with React, Tailwind CSS, Express, and MongoDB, offering a seamless and fully responsive user experience. Featuring an interactive map via Leaflet, users can easily explore property locations with real-time updates. Secure user authentication and authorization, managed through cookies, ensures robust data protection and privacy. ",
+        live_link:"https://real-estate-frontend-xpfi.onrender.com/",
+        github_link:"https://github.com/thakurcoder/real-estate",
+        technologie:[" React, ", " Tailwind CSS, " , " Express.js,", " Mongodb "]
     },
     {
         title:"Food Heart",

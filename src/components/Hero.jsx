@@ -38,6 +38,7 @@ function Hero() {
         animate={{x:0,opacity:1}}
         transition={{duration:2,dealy:2}}
          className="flex justify-center lg:w-1/2">
+          
           <img
             className="w-48 rounded-3xl md:w-64 lg:w-3/4"
             src={profilepic}
